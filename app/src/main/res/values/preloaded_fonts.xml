@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abhaya_libre</item>
+        <item>@font/aclonica</item>
+        <item>@font/aguafina_script</item>
+        <item>@font/aleo</item>
+        <item>@font/allan</item>
+        <item>@font/allan_bold</item>
+        <item>@font/amaranth_bold_italic</item>
+        <item>@font/black_han_sans</item>
+        <item>@font/calligraffitti</item>
+        <item>@font/caveat_bold</item>
+        <item>@font/condiment</item>
+    </array>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUsActivity"
+    android:background="@drawable/aboutusbackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtHeadingAboutUs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:fontFamily="@font/amaranth_bold_italic"
+                android:text="About Us"
+                android:textAlignment="center"
+                android:textColor="#F3EEEE"
+                android:textSize="35dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtBodyAboutUs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="50dp"
+                android:fontFamily="@font/allan"
+                android:text="Welcome to our smart Nutrition mobile app, designed to make healthy eating easy and convenient. With our app, you can easily search for food items and discover their nutritional values, helping you make informed decisions about what to eat. Our team of experts has curated a comprehensive database of foods and their nutritional information to provide you with the most accurate data possible. Join us on your journey to better health today!"
+                android:textAlignment="center"
+                android:textColor="#F3EEEE"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtVibhor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vibhor Chopra - 100348214"
+                android:textAlignment="center"
+                android:textColor="#F3EEEE" />
+
+            <TextView
+                android:id="@+id/txtPardeep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pardeep Singh - 100351438"
+                android:textAlignment="center"
+                android:textColor="#F3EEEE" />
+
+            <TextView
+                android:id="@+id/txtAnshul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Anshul Gupta - 100342941"
+                android:textAlignment="center"
+                android:textColor="#F3EEEE" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
